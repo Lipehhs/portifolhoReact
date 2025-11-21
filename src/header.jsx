@@ -1,23 +1,20 @@
 import './App.css'
-import './header.css'
+import './Header.css'
 
-function header(){
+
+function Header(){
 return(
     <>
     <nav>
         <ul>
-            <li>Sobre</li>
             <li>Contato</li>
             <li>Tecnologias</li>
             <li>Formação</li>
         </ul>
     </nav>
-    
-    
-    
     </>
 )
 
 }
 
-export default header 
+export default Header 
